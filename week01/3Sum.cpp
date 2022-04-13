@@ -1,3 +1,6 @@
+//Time Complexity - O(N^2)
+//Space Complexity - O(N)
+
 class Solution {
 public:
 	vector<vector<int>> threeSum(vector<int>& nums) {
