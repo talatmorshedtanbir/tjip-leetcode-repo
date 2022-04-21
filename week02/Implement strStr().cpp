@@ -1,5 +1,3 @@
-KMP Algorithm:
-
 class Solution {
 public:   
     int strStr(string haystack, string needle) {
@@ -65,23 +63,5 @@ public:
                 }
             }
         }
-    }
-};
-
-
-Native Approach:
-
-class Solution {
-public:
-    int strStr(string haystack, string needle) {
-        int haystackLength = haystack.size();
-        int needleLength = needle.size();
-        
-        for(int i=0; i<=(haystackLength-needleLength); i++) {
-            if(haystack.substr(i,needleLength)==needle)
-                return i;
-        }
-        
-        return -1;
     }
 };
