@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/group-anagrams/
+// Time Complexity: O(N*log(M))
+// Memory Complexity: O(N + M)
+
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {

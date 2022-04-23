@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/decode-string/
+// Time Complexity: O(N)
+// Space Complexity: O(N)
+
 class Solution {
 public:
     string decodeString(string s) {

@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/number-of-matching-subsequences/
+// Time Complexity: O(N*log(N))
+// Space Complexity: O(1)
+
 class Solution {
 public:
     int numMatchingSubseq(string s, vector<string>& words) {

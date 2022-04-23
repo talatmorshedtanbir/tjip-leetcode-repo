@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/longest-string-chain/
 // Time Complexity: O(NlogN)
 // Space Complexity: O(NS)
 

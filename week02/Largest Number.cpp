@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/largest-number/
+// Time Complexity: O(N*log(N))
+// Space Complexity: O(N)
+
 bool compare(string a,string b){
     return a+b > b+a;
 }

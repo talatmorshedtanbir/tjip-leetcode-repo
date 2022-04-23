@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/valid-parentheses/
+// Time Complexity: O(N)
+// Space Complexity: O(N)
+
 class Solution {
 public:
     bool isValid(string s) {

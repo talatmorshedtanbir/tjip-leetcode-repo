@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/implement-strstr/
+// Time Complexity: O(N)
+// Memory Complexity: O(N)
+
 class Solution {
 public:   
     int strStr(string haystack, string needle) {

@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/longest-common-prefix/
+// Time Complexity: O(NS)
+// Space Complexity: O(1)
+
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
