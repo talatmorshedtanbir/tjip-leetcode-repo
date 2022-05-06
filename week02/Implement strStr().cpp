@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/implement-strstr/
 // Time Complexity: O(N)
-// Memory Complexity: O(N)
+// Memory Complexity: O(N+M)
 
 class Solution {
 public:   
