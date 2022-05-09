@@ -1,3 +1,6 @@
+//Time Complexity - O(N)
+//Space Complexity - O(1)
+
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {

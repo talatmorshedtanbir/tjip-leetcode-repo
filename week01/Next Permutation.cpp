@@ -1,3 +1,6 @@
+//Time Complexity - O(N)
+//Space Complexity - O(1)
+
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -16,7 +19,6 @@ public:
         if(isGreater == false){
             reverse(nums.begin(), nums.end());
         }
-
         else{
             int i;
             for(i=len-1; i>greaterIndex; i--){

@@ -1,3 +1,6 @@
+//Time Complexity - O(N*log(N))
+//Space Complexity - O(N)
+
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {

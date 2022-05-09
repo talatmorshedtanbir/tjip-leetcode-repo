@@ -1,3 +1,6 @@
+//Time Complexity - O(N)
+//Space Complexity - O(N)
+
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
