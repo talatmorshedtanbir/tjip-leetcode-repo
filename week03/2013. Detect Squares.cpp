@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/detect-squares/
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 
 class DetectSquares {
 public:
