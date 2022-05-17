@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/design-hashmap/
-// Time Complexity: O(1)
+// Time Complexity: O(N) For Element Chaining, Otherwise O(1)
 // Space Complexity: O(N)
 
 class MyHashMap {
