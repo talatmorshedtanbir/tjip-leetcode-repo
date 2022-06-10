@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 // Time Complexity: O(N) 
-// Spcae Complexity: O(logN)
+// Space Complexity: O(logN)
 
 /**
  * Definition for a binary tree node.
