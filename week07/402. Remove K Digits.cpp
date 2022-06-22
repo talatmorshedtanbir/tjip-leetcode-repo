@@ -7,7 +7,7 @@ public:
     string removeKdigits(string num, int k) {
         string result;        
         int totalNums = num.size();
-        int keep = totalNums - k;
+        int keep = totalNums-k;
         
         for (int i=0; i<totalNums; i++) {
             while (result.size()>0 && result.back()>num[i] && k>0) {
