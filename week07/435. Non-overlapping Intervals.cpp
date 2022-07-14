@@ -2,11 +2,11 @@
 // Time Complexity: O(N*log(N))
 // Space Complexity: O(1)
 
-bool comp(vector<int> &a,vector<int> &b) {
-    return a[1]<b[1];
-}
-
 class Solution {
+
+static bool comp(vector<int> &a,vector<int> &b) {
+    return a[1]<b[1];
+} 
 
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
