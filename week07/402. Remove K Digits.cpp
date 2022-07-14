@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-k-digits/
-// Time Complexity: O(N*K) //K is for removing larger digits
+// Time Complexity: O(N+K) //K is for removing larger digits
 // Space Complexity: O(1)
 
 class Solution {
